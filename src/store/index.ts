@@ -4,8 +4,18 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
+  state: {
+    agile: [],
+    darkMode: false
+  },
+  mutations: {
+    setAgile(state, value) {
+      state.agile = value;
+    },
+    switchDarkMode(state) {
+      state.darkMode = !state.darkMode;
+    }
+  },
   actions: {},
   modules: {}
 });

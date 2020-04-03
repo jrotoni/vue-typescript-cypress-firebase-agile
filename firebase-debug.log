@@ -1,0 +1,25 @@
+[debug] [2020-04-03T09:09:47.847Z] ----------------------------------------------------------------------
+[debug] [2020-04-03T09:09:47.850Z] Command:       /usr/local/Cellar/node@12/12.16.1/bin/node /usr/local/bin/firebase serve
+[debug] [2020-04-03T09:09:47.851Z] CLI Version:   8.0.1
+[debug] [2020-04-03T09:09:47.851Z] Platform:      darwin
+[debug] [2020-04-03T09:09:47.851Z] Node Version:  v12.16.1
+[debug] [2020-04-03T09:09:47.852Z] Time:          Fri Apr 03 2020 17:09:47 GMT+0800 (Philippine Standard Time)
+[debug] [2020-04-03T09:09:47.853Z] ----------------------------------------------------------------------
+[debug] [2020-04-03T09:09:47.853Z] 
+[debug] [2020-04-03T09:09:47.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-03T09:09:47.867Z] > authorizing via signed-in user
+[debug] [2020-04-03T09:09:47.867Z] [iam] checking project agilemanifestovue for permissions ["firebase.projects.get"]
+[debug] [2020-04-03T09:09:47.871Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/agilemanifestovue:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-03T09:09:49.117Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 03 Apr 2020 09:09:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=961","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-03T09:09:49.119Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/agilemanifestovue  
+ 
+[debug] [2020-04-03T09:09:50.313Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 03 Apr 2020 09:09:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/Users/jeremy/Desktop/test/vue-typescript-cypress-agile'...
+[info] 
+[debug] [2020-04-03T09:09:50.317Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/agilemanifestovue/webApps/-/config  
+ 
+[debug] [2020-04-03T09:09:51.530Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 03 Apr 2020 09:09:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
